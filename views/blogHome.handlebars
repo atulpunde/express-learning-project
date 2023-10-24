@@ -1,0 +1,13 @@
+<div class="container mt-5">
+  <ul>
+    {{#each blogs}}
+      <li>
+        <div class="blog">
+          <a href="/blogpost/{{this.slug}}" class="list-group-item list-group-item-action">
+            <h2>{{this.title}}</h2>
+          </a>
+        </div>
+      </li>
+    {{/each}}
+  </ul>
+</div>
